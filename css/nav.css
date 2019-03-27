@@ -1,0 +1,60 @@
+/*********** 
+   BASE
+************/
+
+.menu {
+	float: right;
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+/*********** 
+   MODULE
+************/
+
+.menu ul{ 
+   	display: flex;
+    list-style-type: none;
+ 	margin-right: 15px;
+  	font-size: 20px;
+
+}
+
+.menu li{
+	margin-top: 25px;
+}
+
+.menu a{
+	display: block;
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+	background-color: black;
+}
+
+/*********** 
+   STATE
+************/
+
+.menu a:link{
+	color: lightgray;
+}
+
+.menu a:visited{
+	color: lightgray;
+}
+
+.menu a.is-current{
+	background-color: khaki;
+	color: black;
+	font-style: italic; 
+}
+
+
+@media (max-width: 950px){
+	.menu{
+		float: left;
+	}
+}
+
+
+
