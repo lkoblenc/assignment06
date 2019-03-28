@@ -59,7 +59,7 @@
 <hr>
 
 <section class="if">
-		<p class="news">If you are interested in receiving our monthly newsletter about the Marine Coprs, please click "Sign-up now!"</p>
+		<p class="news">If you are interested in receiving our weekly newsletter about the Marine Coprs, please click "Sign-up now!"</p>
 		<a class="sign" href="signup.php">SIGN UP NOW!</a>
 
 

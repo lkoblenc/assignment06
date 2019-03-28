@@ -22,8 +22,14 @@
         
         <form method= "post" action= "signup-processor.php">
 
+        	<label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname">  
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname">  
+
             <label for="email">Email:</label>
-                <input type="text" name="email" id="email">      
+            <input type="text" name="email" id="email">      
 
             <input type="submit" value="Sign up">
             

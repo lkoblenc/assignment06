@@ -12,12 +12,12 @@
     <img src="images/logo.png" alt="logo">
 	</a>
 	 
-	 <a class="wiki" href="https://en.wikipedia.org/wiki/United_States_Marine_Corps">Learn more about Marine Corps History...»»</a>
+	 <a class="original" href="http://csc174.org/midterm/lkoblence/index.php">See the original site...»»</a>
 </header>
 
 <div class="brief">
 	  Swift Silent Deadly
-	  <a class ="content" href="about.php">Read More...</a>
+	  <a class ="content" href="signup.php">Get our weekly Newsletter!</a>
 </div>
 
 <div class="celer">
