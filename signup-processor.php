@@ -30,7 +30,8 @@
 
 <?php
 	if ($result) {
-		echo "Success! - the query seemed to work! (At least it didn't error-out.)";
+		header("Location: http://csc174.org/midterm/lkoblence/index.php"); /* Redirect browser */
+  exit();
 ?>
 <?php
 	} else {
