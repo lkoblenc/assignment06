@@ -18,19 +18,9 @@
 
 ?>
 
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Database Insert</title>
-</head>
-<body>
-
-	<h1>Database Insert</h1>
-
 <?php
 	if ($result) {
-		header("Location: http://csc174.org/midterm/lkoblence/index.php"); /* Redirect browser */
+		header("Location: about.php"); /* Redirect browser */
   exit();
 ?>
 <?php
@@ -38,8 +28,6 @@
 		die("Database query failed.");
 	}
 ?>
-</body>
-</html>
 
 <?php
 	// 4. Step 4 is unnecessary here because we didn't 
