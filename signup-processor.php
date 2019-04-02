@@ -45,6 +45,7 @@
 	//	  get data that needs to be released
 	//mysqli_free_result($result);
 
+    mysqli_free_result($result);
 	// 5. Close database connection
 	mysqli_close($connection);
 ?>
