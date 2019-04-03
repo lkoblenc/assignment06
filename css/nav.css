@@ -1,15 +1,15 @@
-/*********** 
-   BASE
-************/
+/*Yiqun Ding
+SMACC architecture
+base > layout > modules > state*/
+
+/*************************************************************
+STATE LAYOUT
+*************************************************************/
 
 .menu {
 	float: right;
 	font-family: 'Allerta Stencil', sans-serif;
 }
-
-/*********** 
-   MODULE
-************/
 
 .menu ul{ 
    	display: flex;
@@ -31,10 +31,6 @@
 	background-color: black;
 }
 
-/*********** 
-   STATE
-************/
-
 .menu a:link{
 	color: lightgray;
 }
@@ -48,7 +44,6 @@
 	color: black;
 	font-style: italic; 
 }
-
 
 @media (max-width: 950px){
 	.menu{

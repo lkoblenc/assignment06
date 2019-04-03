@@ -1,13 +1,17 @@
-/*********** 
-   BASE
-************/
+/*Yiqun Ding
+SMACC architecture
+base > layout > modules > state*/
+
+/*************************************************************
+MODULES LAYOUT
+*************************************************************/
 
 .home {
 	background-image: url(../images/usmcone.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 1000px;
+	height: 800px;
 	font-family: 'Allerta Stencil', sans-serif;
 }
 
@@ -18,17 +22,20 @@
 .brief {
 	padding-top: 420px;
 	font-size: 30px;
-	color: green;
+	color: lightgreen;
 	text-decoration: none;
+	padding-left: 20px;
 }
 .celer {
 	font-size: 30px;
-	color: darkred;
+	color: red;
+	padding-left: 20px;
 }
 
 .original{
 	float: right;
 	padding-top: 25px;
+	padding-right: 20px;
 	font-size: 20px;
 	color: khaki;
 	text-decoration: none;
@@ -38,12 +45,13 @@
 	float: right;
 	font-size: 30px;
 	color: khaki;
-	text-decoration: none;
+	padding-right:20px;
+	text-decoration: underline;
 }
 
-/*********** 
-   STATE
-************/
+/*************************************************************
+STATE LAYOUT
+*************************************************************/
 
 
 @media (max-width: 1200px){

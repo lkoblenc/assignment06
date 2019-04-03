@@ -1,25 +1,10 @@
-/*********** 
-   BASE
-************/
+/*Yiqun Ding
+SMACC architecture
+base > layout > modules > state*/
 
-.container{
-	margin: 0 auto;
-	width: 90%;
-	max-width: 960px;
-
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: 1fr 1fr 2fr;
-
-	font-family: 'Stardos Stencil', cursive;
-    color: black;
-}
-
-.banner{
-	background-color: green;
-	height: 140px;
-
-}
+/* ******************************
+   Base Styles
+   ****************************** */
 
 h2{
 	color: darkred;
@@ -32,7 +17,33 @@ h2{
 
 }
 
+label {
+	font-size:18px;
+	line-height: 2em;
+}
 
+p {
+	padding-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	font-size: 15px;
+}
+
+footer{
+	background-color: #22311d;
+	color: grey;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 140px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+/*************************************************************
+MODULES LAYOUT
+*************************************************************/
 
 .sign{
 	padding: 10px 25px;
@@ -53,26 +64,50 @@ h2{
 	text-align: center;
 }
 
-footer{
-	background-color: #22311d;
-	color: grey;
-	text-align: center;
-	font-size: 15px;
-	margin-top: 140px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	font-family: "Arial Black", Gadget, sans-serif;
+.container {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 960px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 2fr;
+	font-family: 'Stardos Stencil', cursive;
+    color: black;
 }
 
-
-/*********** 
-   Layout
-************/
-
+.banner{
+	background-color: green;
+	height: 140px;
+}
 
 .logo{
 	float: left;
 }
+
+.pic{
+  	border: 2px solid green;
+  	border-radius: 4px;
+  	padding: 5px;
+  	width: 500px;
+  	height: 360px;
+  	margin-left: 100px;
+  	padding-bottom: 5px;
+  	margin-top: 50px;
+ 	display: inline-block;
+}
+
+.apic{
+	border: 2px solid green;
+  	border-radius: 4px;
+  	padding: 5px;
+  	width: 500px;
+  	height: 360px;
+  	margin-left: 20px;
+  	margin-right:20px;
+  	padding-bottom: 5px;
+  	margin-top: 30px;
+ 	display: inline-block;
+}	
 
 .force{
 	padding-bottom: 50px;
@@ -80,6 +115,8 @@ footer{
 
 .news{
 	padding-bottom: 20px;
+	font-weight: bold;
+	font-size:20px;
 }
 
 
@@ -91,9 +128,9 @@ footer{
 	margin-bottom: 50px;
 }
 
-/*********** 
-   MODULE
-************/
+/* ******************************
+   Modules Styles
+   ****************************** */
 
 .banner a{
 	text-decoration: none;
@@ -107,19 +144,13 @@ footer{
 	font-family: 'Allerta Stencil', sans-serif;
 }
 
-
-
-
-
 .form input{
 	padding-right: 200px;
 }
 
-
-
-/*********** 
-   STATE
-************/
+/* ******************************
+   State Styles
+   ****************************** */
 
 .sign:hover{
 	background-color: green;
