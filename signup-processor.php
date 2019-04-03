@@ -23,6 +23,7 @@
 		header("Location: about.php"); /* Redirect browser */
   exit();
 ?>
+
 <?php
 	} else {
 		die("Database query failed.");
